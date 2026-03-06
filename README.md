@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -202,3 +202,198 @@ PR campaigns, SEO, and community building.
 
 </body>
 </html>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#0b0f19;
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#0b0f19;
+border-bottom:1px solid #222;
+}
+
+.logo{
+font-weight:bold;
+font-size:22px;
+}
+
+nav a{
+margin:0 15px;
+color:white;
+text-decoration:none;
+}
+
+.cta{
+background:#00ffa6;
+border:none;
+padding:10px 18px;
+cursor:pointer;
+}
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(120deg,#0b0f19,#111d3b);
+padding:40px;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:600px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.hero-buttons button{
+margin:10px;
+padding:12px 20px;
+border:none;
+cursor:pointer;
+}
+
+.primary{
+background:#00ffa6;
+}
+
+.secondary{
+background:#222;
+color:white;
+}
+
+.stats{
+display:flex;
+justify-content:space-around;
+padding:60px;
+background:#111;
+}
+
+.stat h2{
+font-size:36px;
+color:#00ffa6;
+}
+
+.services{
+padding:80px;
+text-align:center;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.service{
+background:#151a28;
+padding:30px;
+border-radius:10px;
+}
+
+.solutions{
+padding:80px;
+background:#111;
+text-align:center;
+}
+
+.solution-grid{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.solution-card{
+background:#151a28;
+padding:30px;
+border-radius:10px;
+}
+
+.clients{
+padding:80px;
+text-align:center;
+}
+
+.client-logos{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.logo-box{
+background:#151a28;
+padding:20px 30px;
+border-radius:8px;
+}
+
+.testimonials{
+padding:80px;
+background:#111;
+text-align:center;
+}
+
+.testimonial-container{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+}
+
+.testimonial{
+background:#151a28;
+padding:30px;
+border-radius:10px;
+width:300px;
+}
+
+.contact{
+padding:80px;
+text-align:center;
+}
+
+form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+}
+
+input,textarea{
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:5px;
+}
+
+form button{
+background:#00ffa6;
+padding:12px;
+border:none;
+cursor:pointer;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#0b0f19;
+border-top:1px solid #222;
+}
